@@ -1,0 +1,23 @@
+.CustomerComments-section {
+    padding: 0 2rem;
+    margin-bottom: 16rem;
+}
+
+.comment-img-container img {
+    width: 100%;
+   
+}
+.comment-img-container {
+    transform: none; 
+    transition: 1.3s;
+}
+.rotateRight {
+    transform: rotate(360deg);
+    transition: 1.3s;
+    cursor: pointer;
+}
+.rotateLeft {
+    transform: rotate(-360deg);
+    transition: 1.3s;
+    cursor: pointer;
+}

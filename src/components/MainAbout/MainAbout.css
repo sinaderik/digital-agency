@@ -1,0 +1,121 @@
+.main-about-wrapper {
+    margin-top: 4rem;
+    padding: 2rem;
+}
+
+.user-image-wrapper {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ActiveClient-icon,
+.alex-icon,
+.Sale-icon {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+}
+
+.userShape {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.ActiveClient-icon {
+    top: 30%;
+    left: 0%;
+}
+
+.Sale-icon {
+    top: 57%;
+    right: -10%;
+}
+
+.alex-icon {
+    top: 67%;
+    left: -15%;
+}
+
+@media screen and (min-width: 1200px) {
+    .userShape {
+        position: absolute;
+        width: 70%;
+        top: 0;
+        right: 0;
+        left: 60px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .ActiveClient-icon {
+        width: 200px;
+        height: 200px;
+        top: 20%;
+        left: -12%;
+    }
+
+    .Sale-icon {
+        width: 150px;
+        height: 170px;
+        top: 57%;
+        right: -8%;
+        /* width: 200px;
+        height: 170px;
+        top: 57%;
+        right: -22%; */
+    }
+
+    .alex-icon {
+        width: 200px;
+        top: 67%;
+        left: -22%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .user-image-wrapper {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .user-image-wrapper {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .job-content {
+        padding: 0;
+    }
+
+    .user-image-wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .ActiveClient-icon {
+        width: 100px;
+        height: 100px;
+        top: 10%;
+        left: -22%;
+    }
+
+    .Sale-icon {
+        width: 100px;
+        height: 170px;
+        top: 37%;
+        right: -22%;
+    }
+
+    .alex-icon {
+        width: 100px;
+        top: 67%;
+        left: -22%;
+    }
+}

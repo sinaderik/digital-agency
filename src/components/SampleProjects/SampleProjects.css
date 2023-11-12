@@ -1,0 +1,19 @@
+/* .css-1aquho2-MuiTabs-indicator */
+/* .MuiButtonBase-root{
+    color: red;
+} */
+.css-w8dmq8
+.css-13xfq8m-MuiTabPanel-root{
+    padding: 24px 0;
+}
+.css-heg063-MuiTabs-flexContainer 
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    color: black;
+}
+.css-heg063-MuiTabs-flexContainer 
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color: var(--orangeBackGround);
+}
+.MuiTabs-scroller .css-1aquho2-MuiTabs-indicator{
+    background-color: var(--orangeBackGround);
+}

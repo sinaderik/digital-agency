@@ -1,0 +1,33 @@
+.footer{
+    /* border: 1px solid black; */
+    padding: 0 2rem;
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+    border-top: 2px solid rgba(67, 66, 66, 0.468);
+}
+.footer-logo{
+    width: 150px;
+}
+.footer-icon{
+    margin-right: 0.5rem;
+}
+.footer-title{
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+}
+.footer-item{
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+input{
+    width: 100%;
+}
+@media screen and (max-width: 766px) {
+    ul{
+        margin-bottom: 1rem;
+        border-bottom: 2px solid rgba(67, 66, 66, 0.468);
+    }
+}
+/* .MuiTextField-root .MuiInputBase-root .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+    border-color: red;
+} */

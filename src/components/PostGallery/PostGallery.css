@@ -1,0 +1,160 @@
+.comment-wrapper {
+    position: relative;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 13px 0px rgba(0, 0, 0, 0.29);
+    -webkit-box-shadow: -1px 1px 13px 0px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: -1px 1px 13px 0px rgba(0, 0, 0, 0.29);
+}
+
+.comment-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+}
+
+.arrowbtn {
+    background-color: white;
+    position: absolute;
+    padding: 0.5rem;
+    box-shadow: -1px 1px 13px 0px rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: -1px 1px 13px 0px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: -1px 1px 13px 0px rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+
+.arrowbtn>* {
+    color: black;
+    transition: 0.3s;
+
+}
+
+.arrowbtn:hover {
+    background-color: var(--orangeBackGround);
+    transition: 0.3s;
+
+}
+
+.arrowbtn:hover>* {
+    color: white;
+    transition: 0.3s;
+
+}
+
+.nextbtn {
+    right: -15%;
+    top: 60%;
+}
+
+.backbtn {
+    right: -15%;
+    top: 30%;
+}
+
+
+
+.showAnime {
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+
+@media screen and (max-width: 540px) {
+    .nextbtn {
+        right: -10%;
+    }
+
+    .backbtn {
+        right: -10%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nextbtn {
+        top: 95%;
+        right: 5%;
+    }
+
+    .backbtn {
+        top: 95%;
+        left: 2%;
+        right: 84%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .backbtn {
+        top: 95%;
+        left: -4%;
+        right: 84%;
+    }
+}
+
+@keyframes myAnim {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+
+    38% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    55% {
+        animation-timing-function: ease-in;
+        transform: translateX(-68px);
+    }
+
+    72% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+
+    81% {
+        animation-timing-function: ease-in;
+        transform: translateX(-28px);
+    }
+
+    90% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+
+    95% {
+        animation-timing-function: ease-in;
+        transform: translateX(-8px);
+    }
+
+    100% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+}
+
+/* @keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: rotateY(-70deg);
+		transform-origin: left;
+	}
+
+	100% {
+		opacity: 1;
+		transform: rotateY(0);
+		transform-origin: left;
+	}
+} */
+
+/* @keyframes myAnim {
+	0% {
+		transform: scaleX(0);
+		transform-origin: 0% 0%;
+	}
+
+	100% {
+		transform: scaleX(1);
+		transform-origin: 0% 0%;
+	}
+} */

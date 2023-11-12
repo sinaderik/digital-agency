@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Mulish:wght@200;400;700;800&display=swap');
+
+:root {
+    --white: #ffffff;
+    --orangeBackGround: rgb(252, 106, 89);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: blueviolet; */
+    background: linear-gradient(270.67deg, rgba(246, 247, 255, 0.16) 0.61%, rgba(244, 251, 254, 0.69) 99.49%);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Mulish', sans-serif;
+}
+.default-margin-bottom{
+    margin-bottom: 11rem;
+}
+.section-title {
+    color: var(--orangeBackGround);
+}
+.job-section{
+    margin-top: 5rem;
+}
+.main-btn {
+    color: var(--white);
+    background: var(--orangeBackGround);
+    padding: 0.9rem 1.2rem;
+    border-radius: 115px 115px 115px 115px;
+    -webkit-border-radius: 115px 115px 115px 115px;
+    -moz-border-radius: 115px 115px 115px 115px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 7px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #dcdada;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--orangeBackGround);
+    opacity: 0.5;
+  }
+@media screen and (max-width: 900px) {
+    .contact-btn {
+        display: none;
+    }
+
+    .contact-mobile-btn {
+        margin-top: 1rem;
+        display: block;
+        border-radius: 0;
+    }
+}
+@media screen and (max-width: 450px){
+    .default-margin-bottom{
+        margin-bottom: 6rem;
+    }
+}
